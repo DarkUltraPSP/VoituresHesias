@@ -1,0 +1,66 @@
+﻿@page "/voiture/{id:int}/entretien/{identretien:int}/edit"
+@page "/voiture/{id:int}/entretien"
+@inject NavigationManager NavigationManager
+@inject IVoitureService VoitureService
+@inject IEntretienService EntretienService
+@rendermode InteractiveAuto
+
+<h3>Entretien</h3>
+
+<div class="card">
+    <div class="card-body">
+        <EditForm Model="entretien" OnSubmit="HandleEntretienSubmit">
+            <div class="form-group">
+                <label for="kilometrage">Kilometrage</label>
+                <InputNumber id="kilometrage" class="form-control" @bind-Value="entretien.Kilometrage" min="voiture.Kilometrage" />
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <InputText id="description" class="form-control" @bind-Value="entretien.DescritionEntretien" />
+            </div>
+            <button type="submit" class="btn btn-primary">Sauvegarder</button>
+            <button type="button" class="btn btn-danger" @onclick="() => DeleteEntretien(entretien.Id)">Supprimer</button>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    [Parameter]
+    public int? identretien { get; set; }
+
+    Voiture voiture { get; set; } = new Voiture { Marque = string.Empty };
+    Entretien entretien { get; set; } = new Entretien { Kilometrage = 0, DescritionEntretien = string.Empty };
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id.HasValue && Id != 0 && identretien.HasValue && identretien != 0)
+        {
+            voiture = await VoitureService.GetVoiture(Id.Value);
+            entretien = await EntretienService.GetEntretien(identretien.Value);
+        }
+    }
+
+    async Task HandleEntretienSubmit()
+    {
+        if (!identretien.HasValue || identretien == 0)
+        {
+            await EntretienService.AddEntretien(Id.Value, entretien);
+        }
+        else
+        {
+            int id = identretien.Value;
+            await EntretienService.UpdateEntretien(id, entretien);
+        }
+        NavigationManager.NavigateTo($"/voitures/edit/{Id}");
+    }
+
+
+	async Task DeleteEntretien(int id)
+    {
+        await EntretienService.DeleteEntretien(id);
+        NavigationManager.NavigateTo($"/voitures/edit/{Id}");
+    }
+}

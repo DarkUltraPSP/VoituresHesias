@@ -1,0 +1,14 @@
+﻿@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<button class="btn btn-primary" @onclick="EditVoiture">Editer la voiture</button>
+
+@code {
+	[Parameter]
+	public int Id { get; set; }
+
+	void EditVoiture()
+	{
+		NavigationManager.NavigateTo($"/voitures/edit/{Id}");
+	}
+}

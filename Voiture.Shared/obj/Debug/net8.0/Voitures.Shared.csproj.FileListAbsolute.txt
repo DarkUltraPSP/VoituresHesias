@@ -1,0 +1,12 @@
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\bin\Debug\net8.0\Voitures.Shared.deps.json
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\bin\Debug\net8.0\Voitures.Shared.dll
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\bin\Debug\net8.0\Voitures.Shared.pdb
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.csproj.AssemblyReference.cache
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.AssemblyInfoInputs.cache
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.AssemblyInfo.cs
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.csproj.CoreCompileInputs.cache
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.dll
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\refint\Voitures.Shared.dll
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\Voitures.Shared.pdb
+C:\Users\crayssiguier\Desktop\Cours\.NET\Voitures\Voiture.Shared\obj\Debug\net8.0\ref\Voitures.Shared.dll

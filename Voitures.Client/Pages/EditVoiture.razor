@@ -1,0 +1,152 @@
+﻿@page "/voitures/edit/{id:int}"
+@page "/voitures/edit"
+@inject NavigationManager NavigationManager
+@inject IVoitureService VoitureService
+@inject IEntretienService EntretienService
+@rendermode InteractiveAuto
+
+@if (voiture == null)
+{
+	<h3>Create Voiture</h3>
+}
+else
+{
+    <h3>Edit Voiture</h3>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <EditForm Model="voiture" OnSubmit="HandleSubmit">
+                    <div class="form-group">
+                        <label for="marque">Marque</label>
+                        <InputText id="marque" class="form-control" @bind-Value="voiture.Marque" />
+                    </div>
+                    <div class="form-group">
+                        <label for="modele">Modele</label>
+                        <InputText id="modele" class="form-control" @bind-Value="voiture.Modele" />
+                    </div>
+                    <div class="form-group">
+                        <label for="couleur">Immatriculation</label>
+                        <InputText id="couleur" class="form-control" minlength="7" maxlength="9" @bind-Value="voiture.Immatriculation" />
+                    </div>
+                    <div class="form-group">
+                        <label for="annee">Annee</label>
+                        <InputNumber id="annee" class="form-control" @bind-Value="voiture.Annee" />
+                    </div>
+                    <div class="form-group">
+                        <label for="kilometrage">Kilometrage</label>
+                        <InputNumber id="kilometrage" class="form-control" @bind-Value="voiture.Kilometrage" />
+                    </div>
+                    <div class="form-group">
+                        <label for="energie">Energie</label>
+                        <InputText id="energie" class="form-control" @bind-Value="voiture.Energie" />
+                    </div>
+
+                    <div class="d-flex justify-content-end align-items-center mt-3">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Sauvegarder</button>
+                            @if (Id.HasValue && Id != 0)
+                            {
+                                <button type="button" class="btn btn-danger" @onclick="() => DeleteVoiture(Id.Value)">Supprimer</button>
+                            }
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+    @if (voiture != null)
+    {
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-between">
+                        Entretiens
+                        <button class="btn btn-primary" @onclick="CreateEntretienLink">Ajouter un entretien</button>
+                    </h5>
+
+                </div>
+                @if (voiture != null && voiture.Entretiens != null && voiture.Entretiens.Count == 0)
+                {
+                    <div class="card-body">
+                        <p class="card-text">Pas d'entretiens</p>
+                    </div>
+                }
+                else if (voiture != null && voiture.Entretiens != null && voiture.Entretiens.Count > 0)
+                {
+                    @foreach (var entretien in voiture.Entretiens)
+                    {
+                        <div class="card-body">
+                            <p class="card-text">Kilometrage: @entretien.Kilometrage</p>
+                            <p class="card-text">Description: @entretien.DescritionEntretien</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-primary" @onclick="() => UpdateEntretienLink(entretien.Id)">Editer</button>
+                                    <button class="btn btn-danger" @onclick="() => DeleteEntretien(entretien.Id)">Supprimer</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    Voiture voiture { get; set; } = new Voiture { Marque = string.Empty };
+    List<Entretien> entretien = new List<Entretien>();
+
+    void CreateEntretienLink()
+    {
+        NavigationManager.NavigateTo($"voiture/{Id}/entretien");
+    }
+
+    void UpdateEntretienLink(int IdEntretien)
+    {
+        NavigationManager.NavigateTo($"voiture/{Id}/entretien/{IdEntretien}/edit");
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id.HasValue && Id != 0)
+        {
+            voiture = await VoitureService.GetVoiture(Id.Value);
+            entretien = await EntretienService.GetEntretiensByVoitureId(Id.Value);
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        if (!Id.HasValue || Id == 0)
+        {
+            await VoitureService.AddVoiture(voiture);
+        }
+        else
+        {
+            int id = Id.Value;
+            await VoitureService.UpdateVoiture(id, voiture);
+        }
+        NavigationManager.NavigateTo("/voitures");
+    }
+
+
+	async Task DeleteVoiture(int id)
+    {
+        await VoitureService.DeleteVoiture(id);
+		NavigationManager.NavigateTo("/voitures");
+    }
+
+    async Task DeleteEntretien(int id)
+    {
+        await EntretienService.DeleteEntretien(id);
+        NavigationManager.NavigateTo($"/voitures/edit/{Id}");
+    }
+}

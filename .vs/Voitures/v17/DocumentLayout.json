@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures.client\\pages\\editentretien.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|solutionrelative:voitures.client\\pages\\editentretien.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures\\components\\pages\\voiturelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|solutionrelative:voitures\\components\\pages\\voiturelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures.client\\pages\\editvoiture.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|solutionrelative:voitures.client\\pages\\editvoiture.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures\\controllers\\voiturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|solutionrelative:voitures\\controllers\\voiturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\voitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\voitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\ivoitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\ivoitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures\\controllers\\entretiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|solutionrelative:voitures\\controllers\\entretiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\ientretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\ientretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\cliententretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\cliententretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\entretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\entretienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|solutionrelative:voitures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|solutionrelative:voitures.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21E27B09-A9C2-400F-9F4E-45327283B8D8}|Voitures.Client\\Voitures.Client.csproj|solutionrelative:voitures.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\entity\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\entity\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\services\\clientvoitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\services\\clientvoitureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voiture.shared\\entity\\entretien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7680B4-50AD-42C7-A405-5F5777CF7F5D}|Voiture.Shared\\Voitures.Shared.csproj|solutionrelative:voiture.shared\\entity\\entretien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|c:\\users\\crayssiguier\\desktop\\cours\\.net\\voitures\\voitures\\migrations\\20240312225041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A1AFF3-FA93-4DA3-A4CF-2F43BFB26D74}|Voitures\\Voitures.csproj|solutionrelative:voitures\\migrations\\20240312225041_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoitureList.razor",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Components\\Pages\\VoitureList.razor",
+              "RelativeDocumentMoniker": "Voitures\\Components\\Pages\\VoitureList.razor",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Components\\Pages\\VoitureList.razor",
+              "RelativeToolTip": "Voitures\\Components\\Pages\\VoitureList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T10:44:52.556Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntretienService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\EntretienService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\EntretienService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\EntretienService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\EntretienService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:05:36.996Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VoitureService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\VoitureService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\VoitureService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\VoitureService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\VoitureService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:21:45.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntretienController.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Controllers\\EntretienController.cs",
+              "RelativeDocumentMoniker": "Voitures\\Controllers\\EntretienController.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Controllers\\EntretienController.cs",
+              "RelativeToolTip": "Voitures\\Controllers\\EntretienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:59:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVoitureService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\IVoitureService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\IVoitureService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\IVoitureService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\IVoitureService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:56:12.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Voiture.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Entity\\Voiture.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Entity\\Voiture.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Entity\\Voiture.cs",
+              "RelativeToolTip": "Voiture.Shared\\Entity\\Voiture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:31:09.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entretien.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Entity\\Entretien.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Entity\\Entretien.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Entity\\Entretien.cs",
+              "RelativeToolTip": "Voiture.Shared\\Entity\\Entretien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:26:11.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240312225041_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Migrations\\20240312225041_Initial.cs",
+              "RelativeDocumentMoniker": "Voitures\\Migrations\\20240312225041_Initial.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Migrations\\20240312225041_Initial.cs",
+              "RelativeToolTip": "Voitures\\Migrations\\20240312225041_Initial.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:21:40.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientEntretienService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\ClientEntretienService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\ClientEntretienService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\ClientEntretienService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\ClientEntretienService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAmwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:18:04.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Program.cs",
+              "RelativeDocumentMoniker": "Voitures\\Program.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Program.cs",
+              "RelativeToolTip": "Voitures\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:11:19.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Voitures.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Program.cs",
+              "RelativeToolTip": "Voitures.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:08:08.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "Voitures.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\_Imports.razor",
+              "RelativeToolTip": "Voitures.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T15:07:29.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditVoiture.razor",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Pages\\EditVoiture.razor",
+              "RelativeDocumentMoniker": "Voitures.Client\\Pages\\EditVoiture.razor",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Pages\\EditVoiture.razor",
+              "RelativeToolTip": "Voitures.Client\\Pages\\EditVoiture.razor",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T15:03:49.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoitureController.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Controllers\\VoitureController.cs",
+              "RelativeDocumentMoniker": "Voitures\\Controllers\\VoitureController.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures\\Controllers\\VoitureController.cs",
+              "RelativeToolTip": "Voitures\\Controllers\\VoitureController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:59:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditEntretien.razor",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Pages\\EditEntretien.razor",
+              "RelativeDocumentMoniker": "Voitures.Client\\Pages\\EditEntretien.razor",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voitures.Client\\Pages\\EditEntretien.razor",
+              "RelativeToolTip": "Voitures.Client\\Pages\\EditEntretien.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T14:55:33.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEntretienService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\IEntretienService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\IEntretienService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\IEntretienService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\IEntretienService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:28:56.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClientVoitureService.cs",
+              "DocumentMoniker": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\ClientVoitureService.cs",
+              "RelativeDocumentMoniker": "Voiture.Shared\\Services\\ClientVoitureService.cs",
+              "ToolTip": "C:\\Users\\crayssiguier\\Desktop\\Cours\\.NET\\Voitures\\Voiture.Shared\\Services\\ClientVoitureService.cs",
+              "RelativeToolTip": "Voiture.Shared\\Services\\ClientVoitureService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T20:45:23.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

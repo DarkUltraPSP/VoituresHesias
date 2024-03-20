@@ -1,0 +1,11 @@
+﻿@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<button class="btn btn-primary" @onclick="CreateVoiture">Ajouter une voiture</button>
+
+@code {
+	void CreateVoiture()
+	{
+		NavigationManager.NavigateTo("/voitures/edit");
+	}
+}
