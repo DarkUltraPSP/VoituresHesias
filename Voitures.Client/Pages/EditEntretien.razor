@@ -12,7 +12,7 @@
         <EditForm Model="entretien" OnSubmit="HandleEntretienSubmit">
             <div class="form-group">
                 <label for="kilometrage">Kilometrage</label>
-                <InputNumber id="kilometrage" class="form-control" @bind-Value="voiture.Kilometrage" min="@entretien.Kilometrage" />
+                <InputNumber id="kilometrage" class="form-control" @bind-Value="entretien.Kilometrage" min="@entretien.Kilometrage" />
             </div>
             <div class="form-group">
                 <label for="description">Description</label>
@@ -49,6 +49,12 @@
 
     async Task HandleEntretienSubmit()
     {
+        if (entretien.Kilometrage > voiture.Kilometrage)
+        {
+            voiture.Kilometrage = entretien.Kilometrage;
+            await VoitureService.UpdateVoiture(Id.Value, voiture);
+        }
+
         if (!identretien.HasValue || identretien == 0)
         {
             await EntretienService.AddEntretien(Id.Value, entretien);

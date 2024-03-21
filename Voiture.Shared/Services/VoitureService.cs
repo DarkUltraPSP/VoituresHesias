@@ -31,7 +31,7 @@ namespace Voitures.Shared.Services
             var overdueVoitures = voitures.Where(v =>
             {
                 var latestEntretien = v.Entretiens.OrderByDescending(e => e.Kilometrage).FirstOrDefault();
-                return latestEntretien != null && (v.Kilometrage - latestEntretien.Kilometrage) > thresholdKilometers;
+                return latestEntretien != null && (v.Kilometrage - latestEntretien.Kilometrage) >= thresholdKilometers;
             }).ToList();
 
             return overdueVoitures;
