@@ -36,6 +36,12 @@ namespace Voitures.Shared.Services
             return result.IsSuccessStatusCode;
         }
 
+        public async Task<List<Voiture>> GetOverdueVoitures(int id)
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Voiture>>($"api/voiture/{id}/overdue");
+            return result;
+        }
+
         public async Task<Voiture> GetVoiture(int id)
         {
             var result = await _httpClient.GetFromJsonAsync<Voiture>($"api/voiture/{id}");

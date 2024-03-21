@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Voitures.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49c8b7e10fff18a5bed105443ba64e56464ccc4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Voitures.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Voitures.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

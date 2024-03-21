@@ -1,5 +1,5 @@
-﻿@page "/voiture/{id:int}/entretien/{identretien:int}/edit"
-@page "/voiture/{id:int}/entretien"
+﻿@page "/voiture/{Id:int}/entretien/{identretien:int}/edit"
+@page "/voiture/{Id:int}/entretien"
 @inject NavigationManager NavigationManager
 @inject IVoitureService VoitureService
 @inject IEntretienService EntretienService
@@ -12,11 +12,11 @@
         <EditForm Model="entretien" OnSubmit="HandleEntretienSubmit">
             <div class="form-group">
                 <label for="kilometrage">Kilometrage</label>
-                <InputNumber id="kilometrage" class="form-control" @bind-Value="entretien.Kilometrage" min="voiture.Kilometrage" />
+                <InputNumber id="kilometrage" class="form-control" @bind-Value="voiture.Kilometrage" min="@entretien.Kilometrage" />
             </div>
             <div class="form-group">
                 <label for="description">Description</label>
-                <InputText id="description" class="form-control" @bind-Value="entretien.DescritionEntretien" />
+                <InputText id="description" class="form-control" @bind-Value="entretien.DescritionEntretien" required/>
             </div>
             <button type="submit" class="btn btn-primary">Sauvegarder</button>
             <button type="button" class="btn btn-danger" @onclick="() => DeleteEntretien(entretien.Id)">Supprimer</button>
@@ -31,16 +31,20 @@
     [Parameter]
     public int? identretien { get; set; }
 
-    Voiture voiture { get; set; } = new Voiture { Marque = string.Empty };
-    Entretien entretien { get; set; } = new Entretien { Kilometrage = 0, DescritionEntretien = string.Empty };
+    Voiture voiture { get; set; } = new Voiture();
+    Entretien entretien { get; set; } = new Entretien();
 
     protected override async Task OnParametersSetAsync()
     {
-        if (Id.HasValue && Id != 0 && identretien.HasValue && identretien != 0)
+        if (Id.HasValue && Id != 0)
         {
             voiture = await VoitureService.GetVoiture(Id.Value);
+        }
+        if (identretien.HasValue && identretien != 0) 
+        {
             entretien = await EntretienService.GetEntretien(identretien.Value);
         }
+        entretien.Kilometrage = voiture.Kilometrage;
     }
 
     async Task HandleEntretienSubmit()

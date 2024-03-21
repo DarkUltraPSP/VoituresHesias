@@ -30,6 +30,13 @@ namespace Voitures.Controllers
 			return Ok(voiture);
 		}
 
+		[HttpGet("{id}/overdue")]
+		public async Task<ActionResult<Voiture>> GetOverdueVoitures(int id)
+		{
+            var voiture = await _voitureService.GetOverdueVoitures(id);
+            return Ok(voiture);
+        }
+
 		[HttpPost]
 		public async Task<ActionResult<Voiture>> AddVoiture(Voiture voiture)
 		{

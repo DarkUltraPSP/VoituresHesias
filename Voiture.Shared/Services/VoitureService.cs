@@ -25,6 +25,19 @@ namespace Voitures.Shared.Services
             return false;
         }
 
+        public async Task<List<Voiture>> GetOverdueVoitures(int thresholdKilometers)
+        {
+            var voitures = await _context.Voitures.Include(v => v.Entretiens).ToListAsync();
+            var overdueVoitures = voitures.Where(v =>
+            {
+                var latestEntretien = v.Entretiens.OrderByDescending(e => e.Kilometrage).FirstOrDefault();
+                return latestEntretien != null && (v.Kilometrage - latestEntretien.Kilometrage) > thresholdKilometers;
+            }).ToList();
+
+            return overdueVoitures;
+        }
+
+
         public async Task<Voiture> GetVoiture(int id)
         {
             return await _context.Voitures.FindAsync(id);

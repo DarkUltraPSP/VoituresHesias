@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Voitures.Client",
   "resources": {
-    "hash": "sha256-4TSUj30Qf4LQEMU9mqRBv6aoxgfr1AZVNnL9oII0SJI=",
+    "hash": "sha256-pRIpQdB9/WwnVuzmyNvuhG+njIRMSmfqoel4yJVf5aM=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.vsoof5r588.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -212,12 +212,12 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "Voitures.Shared.wasm": "sha256-SbnQmClidUlr1jHM+Ib1llWNklD7+gr99XFw2MyZZe4=",
-      "Voitures.Client.wasm": "sha256-h8vLfET9CrepZhm7AtgCq7kHSw6uMpgavA5NPDuvCUA="
+      "Voitures.Shared.wasm": "sha256-Kj4o1RKXlV2JCaMde+FjP70PlxJyJEDfmTb+4MpVXZE=",
+      "Voitures.Client.wasm": "sha256-0nH+5d+2vXw2FyRq67r8VUi/5v/OZv58mFbmjO0vt+Q="
     },
     "pdb": {
-      "Voitures.Shared.pdb": "sha256-pLkG16kutUhJOxaOuM3XafTQr1PLSJBPJCA0fWX781Q=",
-      "Voitures.Client.pdb": "sha256-7BlmyvKy982cyJJE92EvdAGP2yrjGahSr6yu8tGpPMg="
+      "Voitures.Shared.pdb": "sha256-sYqvGhqQlZwEqGEe3bxiBqGvkN6sy8V2dBdsdw3icsY=",
+      "Voitures.Client.pdb": "sha256-T6gMqgGZTwevLMdf25j4Gkm7ZIozEc9IUtQjqvz4RUc="
     }
   },
   "cacheBootResources": true,

@@ -72,7 +72,9 @@ namespace Voitures.Shared.Services
 
         public async Task<List<Entretien>> GetEntretiensByVoitureId(int id)
         {
-            return await _context.Entretiens.Where(e => e.VoitureId == id).ToListAsync();
+            return await _context.Entretiens.Where(e => e.VoitureId == id)
+                .OrderByDescending(e => e.Kilometrage)
+                .ToListAsync();
         }
 
         public async Task<Entretien> GetEntretien(int id)
